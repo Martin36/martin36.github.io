@@ -38,7 +38,7 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "Here is an overview of my professional experience, education, and skills. For more details, download the PDF version by clicking on the icon to the right.",
           section: "Navigation",
           handler: () => {
