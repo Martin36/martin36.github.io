@@ -1,115 +1,68 @@
----
----
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{funkquist:24,
+    abbr={KR},
+    title     = {{Learning to Ground Existentially Quantified Goals}},
+    author    = {Funkquist, Martin and Ståhlberg, Simon and Geffner, Hector},
+    booktitle = {{Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning}},
+    pages     = {856--866},
+    year      = {2024},
+    month     = {8},
+    doi       = {10.24963/kr.2024/80},
+    url       = {https://doi.org/10.24963/kr.2024/80},
+    abstract  = {Goal instructions for autonomous AI agents cannot assume that objects have unique names. Instead, objects in goals must be referred to by providing suitable descriptions. However, this raises problems in both classical planning and generalized planning. The standard approach to handling existentially quantified goals in classical planning involves compiling them into a DNF formula that encodes all possible variable bindings and adding dummy actions to map each DNF term into the new, dummy goal. This preprocessing is exponential in the number of variables. In generalized planning, the problem is different: even if general policies can deal with any initial situation and goal, executing a general policy requires the goal to be grounded to define a value for the policy features. The problem of grounding goals, namely finding the objects to bind the goal variables, is subtle: it is a generalization of classical planning, which is a special case when there are no goal variables to bind, and constraint reasoning, which is a special case when there are no actions. In this work, we address the goal grounding problem with a novel supervised learning approach. A GNN architecture, trained to predict the cost of partially quantified goals over small domain instances is tested on larger instances involving more objects and different quantified goals. The proposed architecture is evaluated experimentally over several planning domains where generalization is tested along several dimensions including the number of goal variables and objects that can bind such variables. The scope of the approach is also discussed in light of the known relationship between GNNs and C₂ logics.},
+    selected  = {true},
+    bibtex_show={true},
+    pdf={funkquist-et-al-24.pdf},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{funkquist:23,
+    abbr={EMNLP},
+    title = "{C}ite{B}ench: A Benchmark for Scientific Citation Text Generation",
+    author = "Funkquist, Martin  and
+      Kuznetsov, Ilia  and
+      Hou, Yufang  and
+      Gurevych, Iryna",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.455/",
+    doi = "10.18653/v1/2023.emnlp-main.455",
+    pages = "7337--7353",
+    abstract = "Science progresses by building upon the prior body of knowledge documented in scientific publications. The acceleration of research makes it hard to stay up-to-date with the recent developments and to summarize the ever-growing body of prior work. To address this, the task of citation text generation aims to produce accurate textual summaries given a set of papers-to-cite and the citing paper context. Due to otherwise rare explicit anchoring of cited documents in the citing paper, citation text generation provides an excellent opportunity to study how humans aggregate and synthesize textual knowledge from sources. Yet, existing studies are based upon widely diverging task definitions, which makes it hard to study this task systematically. To address this challenge, we propose CiteBench: a benchmark for citation text generation that unifies multiple diverse datasets and enables standardized evaluation of citation text generation models across task designs and domains. Using the new benchmark, we investigate the performance of multiple strong baselines, test their transferability between the datasets, and deliver new insights into the task definition and evaluation to guide future research in citation text generation. We make the code for CiteBench publicly available at https://github.com/UKPLab/citebench.",
+    bibtex_show={true},
+    pdf={funkquist-et-al-23.pdf},
+    video={https://aclanthology.org/2023.emnlp-main.455.mp4},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{funkquist:21,
+    abbr={FEVER},
+    title = "Combining sentence and table evidence to predict veracity of factual claims using {T}a{P}a{S} and {R}o{BERT}a",
+    author = "Funkquist, Martin",
+    editor = "Aly, Rami  and
+      Christodoulopoulos, Christos  and
+      Cocarascu, Oana  and
+      Guo, Zhijiang  and
+      Mittal, Arpit  and
+      Schlichtkrull, Michael  and
+      Thorne, James  and
+      Vlachos, Andreas",
+    booktitle = "Proceedings of the Fourth Workshop on Fact Extraction and VERification (FEVER)",
+    month = nov,
+    year = "2021",
+    address = "Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.fever-1.10/",
+    doi = "10.18653/v1/2021.fever-1.10",
+    pages = "92--100",
+    abstract = "This paper describes a method for retrieving evidence and predicting the veracity of factual claims, on the FEVEROUS dataset. The evidence consists of both sentences and table cells. The proposed method is part of the FEVER shared task. It uses similarity scores between TF-IDF vectors to retrieve the textual evidence and similarity scores between dense vectors created by fine-tuned TaPaS models for tabular evidence retrieval. The evidence is passed through a dense neural network to produce a veracity label. The FEVEROUS score for the proposed system is 0.126.",
+    bibtex_show={true},
+    pdf={funkquist-21.pdf},
+    video={https://aclanthology.org/2021.fever-1.10.mp4},
 }

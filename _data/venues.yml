@@ -7,3 +7,11 @@
 
 "Vision":
   color: "#009f36"
+
+"KR":
+  url: https://kr.org/
+  color: "#2b6dd6"
+
+"EMNLP":
+  url: https://www.aclweb.org/portal/
+  color: "#d62b2b"
