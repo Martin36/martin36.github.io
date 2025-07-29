@@ -37,7 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-science-fictions-the-epidemic-of-fraud-bias-negligence-and-hype-in-science",
+        },{id: "books-a-thousand-brains-a-new-theory-of-intelligence",
+          title: 'A Thousand Brains - A New Theory of Intelligence',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a_thousand_brains/";
+            },},{id: "books-science-fictions-the-epidemic-of-fraud-bias-negligence-and-hype-in-science",
           title: 'Science Fictions - The Epidemic of Fraud, Bias, Negligence and Hype in Science...',
           description: "",
           section: "Books",handler: () => {
