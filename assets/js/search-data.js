@@ -42,6 +42,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/a_thousand_brains/";
+            },},{id: "books-incognito-the-secret-lives-of-the-brain",
+          title: 'Incognito - The Secret Lives of the Brain',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/incognito/";
             },},{id: "books-science-fictions-the-epidemic-of-fraud-bias-negligence-and-hype-in-science",
           title: 'Science Fictions - The Epidemic of Fraud, Bias, Negligence and Hype in Science...',
           description: "",
