@@ -41,9 +41,19 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-weisfeiler-lehman-graph-visualization",
+          section: "News",},{id: "projects-nutrition-calculatior",
+          title: 'Nutrition Calculatior',
+          description: "A web app for comparing foods and calculating the nutritional content of recipes.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nutrition_calculator/";
+            },},{id: "projects-react-gauge-chart",
+          title: 'React Gauge Chart',
+          description: "A React component for animated, customizable gauge charts, built with D3.js.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/react_gauge_chart/";
+            },},{id: "projects-weisfeiler-lehman-graph-visualization",
           title: 'Weisfeiler-Lehman Graph Visualization',
-          description: "",
+          description: "An interactive tool for creating graphs and visualizing each step of the Weisfeiler-Lehman graph isomorphism test.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/wl_viz/";
             },},{
