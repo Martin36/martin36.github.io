@@ -6,7 +6,8 @@
           include figure.liquid
           loading="eager"
           path=project.img
-          sizes = "250px"
+          sizes="(min-width: 930px) 310px, (min-width: 768px) 33vw, 100vw"
+          avoid_scaling=project.img_avoid_scaling
           alt="project thumbnail"
           class="card-img-top"
         %}
