@@ -54,7 +54,9 @@
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
+      {% comment %} Only collapse when at least two authors would be hidden; "1 more author" is no shorter than the name itself. {% endcomment %}
+      {% assign author_collapse_threshold = site.max_author_limit | plus: 1 %}
+      {% if site.max_author_limit and author_array_size > author_collapse_threshold %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 

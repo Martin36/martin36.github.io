@@ -15,3 +15,7 @@
 "EMNLP":
   url: https://www.aclweb.org/portal/
   color: "#d62b2b"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#7a3fb8"

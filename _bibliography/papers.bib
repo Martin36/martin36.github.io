@@ -1,6 +1,19 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{aichmuller:26,
+    abbr      = {NeurIPS},
+    title     = {{Efficient Lookahead Encoding and Abstracted Width for Learning General Policies in Classical Planning}},
+    author    = {Aichmüller, Michael and Ståhlberg, Simon and Funkquist, Martin and Geffner, Hector},
+    booktitle = {{The Fortieth Annual Conference on Neural Information Processing Systems}},
+    year      = {2026},
+    url       = {https://openreview.net/forum?id=kR1PKyczWe},
+    abstract  = {Generalized planning aims to learn policies that generalize across large collections of instances within a classical planning domain. Recent approaches using Graph Neural Networks (GNNs) have shown the ability to learn nearly perfect policies for several domains. This work improves on the recently published idea of Iterated Width (IW) policies. Therein, the policy broadens its successor scope through an IW-lookahead search that offers to "jump" over multiple transitions, simplifying the problem structure. Yet, each transition is evaluated individually leading to unscalable compute and expressivity limitations. Furthermore, while an IW(1) search is attractive due to scaling linearly with the number of atoms in a problem, it still becomes inefficient once thousands of objects are considered like in the International Planning Competition (IPC) 2023 benchmark. In this work, we address both limitations. Firstly, we introduce a vastly more efficient holistic encoding of the entire search tree. It jointly represents IW(1)-reachable states only by their relational differences to the current state, which enables Relational GNNs (R-GNNs) to score all transitions in a single forward pass. Secondly, we define Abstracted IW(1) to improve scaling through relational abstraction during novelty checks. Rather than testing fully instantiated atoms, it abstracts each atom by replacing all but one of its arguments with their types. The original atom is then novel if any of its abstracted forms is. This structural compression shifts the scaling of the novelty search to be linear in the number of objects, rather than atoms, still capturing meaningful subgoal structure. Our contributions are evaluated on the hyperscaling IPC 2023 benchmark and across a broad range of domains, including those that require features beyond the C₂ logic fragment. The results show that our policies achieve a new state-of-the-art performance, significantly surpassing prior work, including classical planners like LAMA.},
+    selected  = {true},
+    bibtex_show={true},
+    pdf={aichmuller-et-al-26.pdf},
+}
+
 @inproceedings{funkquist:24,
     abbr={KR},
     title     = {{Learning to Ground Existentially Quantified Goals}},

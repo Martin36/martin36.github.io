@@ -266,8 +266,8 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Funkquist]
+  first_name: [Martin, M.]
 
   style: apa
   locale: en
