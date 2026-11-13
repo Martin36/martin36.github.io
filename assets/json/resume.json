@@ -132,25 +132,13 @@
       "name": "Computer Science",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Reinforcement Learning",
-        "Deep Learning",
-        "Machine Learning",
-        "Symbolic AI",
-        "Natural Language Processing"
-      ]
+      "keywords": ["Reinforcement Learning", "Deep Learning", "Machine Learning", "Symbolic AI", "Natural Language Processing"]
     },
     {
       "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "PyTorch",
-        "TensorFlow",
-        "Keras",
-        "JavaScript"
-      ]
+      "keywords": ["Python", "PyTorch", "TensorFlow", "Keras", "JavaScript"]
     }
   ],
   "languages": [
@@ -181,14 +169,7 @@
     {
       "name": "Other",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Reading",
-        "Music",
-        "Guitar Playing",
-        "Powerlifting",
-        "Traveling",
-        "Cooking"
-      ]
+      "keywords": ["Reading", "Music", "Guitar Playing", "Powerlifting", "Traveling", "Cooking"]
     }
   ]
 }

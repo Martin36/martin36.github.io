@@ -13,7 +13,7 @@ stars: 4
 status: Finished
 ---
 
-David Eagleman’s *Incognito: The Secret Lives of the Brain* dives into the vast, unseen workings of the mind—those countless processes that shape our reality without ever crossing into consciousness. What we think of as “ourselves” is just the tip of a neurological iceberg.
+David Eagleman’s _Incognito: The Secret Lives of the Brain_ dives into the vast, unseen workings of the mind—those countless processes that shape our reality without ever crossing into consciousness. What we think of as “ourselves” is just the tip of a neurological iceberg.
 
 ## Consciousness as Headlines
 
@@ -41,12 +41,12 @@ When learning a new skill, consciousness is heavily involved. Over time, the bra
 
 ## The Limits of Perception
 
-Eagleman writes about *umwelt*, the idea that each species (including humans) perceives only a slice of reality. We see visible light but miss much of the spectrum. We can’t imagine another creature’s perceptual world—only the loss of **our** own senses.
+Eagleman writes about _umwelt_, the idea that each species (including humans) perceives only a slice of reality. We see visible light but miss much of the spectrum. We can’t imagine another creature’s perceptual world—only the loss of **our** own senses.
 
 ## Oddities of Vision and Behavior
 
-* We tend to briefly overrate the attractiveness of strangers glimpsed in passing—an evolutionary gamble favoring taking chances rather than missing out on a potential mate.
-* Animals, too, run on “zombie behaviors.” Birds, for instance, may show contradictory instincts when presented with unnatural stimuli. Eagleman suggests that greater consciousness reduces these conflicts.
+- We tend to briefly overrate the attractiveness of strangers glimpsed in passing—an evolutionary gamble favoring taking chances rather than missing out on a potential mate.
+- Animals, too, run on “zombie behaviors.” Birds, for instance, may show contradictory instincts when presented with unnatural stimuli. Eagleman suggests that greater consciousness reduces these conflicts.
 
 ## The Brain as a Team of Rivals
 
